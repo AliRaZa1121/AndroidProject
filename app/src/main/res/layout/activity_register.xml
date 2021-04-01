@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
-
+    tools:context=".RegisterActivity">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="300dp"
@@ -40,20 +39,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:background="@drawable/edit_text_design"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_marginTop="28dp"
         android:background="@drawable/edit_text_design"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        tools:layout_editor_absoluteY="379dp" />
 
     <Button
         android:id="@+id/button"
@@ -61,11 +73,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:background="@drawable/button_design"
-        android:text="Login"
+        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintVertical_bias="0.088" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
