@@ -1,12 +1,21 @@
 <resources>
-    <string name="app_name">Placements</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+    <string name="app_name">Student Placement System</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="desc">App Description or tag line</string>
+    <string name="share_text">Download \"Student Placement System\" app from Google Play: \nhttps://play.google.com/store/apps/details?id=com.farhan.sps</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="companies">
+        <item>Company 1</item>
+        <item>Company 2</item>
+        <item>Company 3</item>
+    </string-array>
+
+
 </resources>
