@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:drawablePadding="@dimen/_8sdp"
-                android:hint="Student ID"
+                android:hint="Student Email"
                 android:inputType="text"
                 android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>

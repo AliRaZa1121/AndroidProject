@@ -27,7 +27,7 @@
         android:layout_gravity="center_horizontal"
         android:textAlignment="gravity"
         android:gravity="center"
-        android:text="@string/desc" />
+        android:text="Student Placement App"/>
 
     <View
         android:background="@color/black"
